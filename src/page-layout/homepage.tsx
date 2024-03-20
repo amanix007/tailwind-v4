@@ -1,12 +1,11 @@
-import React from "react";
-
-
+import LandingPageHeroArea from "../../@/components/LandingPageHeroArea/LandingPageHeroArea";
 
 type Props = {};
 
 export default function HomePage({}: Props) {
-  return <div>
-
-    dd
-  </div>;
+  return (
+    <div>
+      <LandingPageHeroArea />
+    </div>
+  );
 }
