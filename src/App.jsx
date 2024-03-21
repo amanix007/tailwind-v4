@@ -11,7 +11,7 @@ function App() {
               <div className="w-60 max-w-full px-4">
                 <a href="index.html" className="navbar-logo block w-full py-5">
                   <img
-                    src="assets/images/logo/logo-white.svg"
+                    src="/logo.svg"
                     alt="logo"
                     className="header-logo w-full"
                   />
@@ -238,11 +238,11 @@ function App() {
                   data-wow-delay=".2s"
                 >
                   <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                    Open-Source Web Template for SaaS, Startup, Apps, and More
+                    {/* Open-Source Web Template for SaaS, Startup, Apps, and More */}
+                    We need something new.
                   </h1>
                   <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                    Multidisciplinary Web Template Built with Your Favourite
-                    Technology - HTML Bootstrap, Tailwind and React NextJS.
+                    Our current system is not working. To get enough money to live, we are doing jobs that we do not want. Pollution, plastics, climate change, deforesting and extinction of animals are destroying our planet. Politics, democracy, capitalism, communism. Left is no better than right. Democrat or republican, autocracy or monarchy – it does not work.
                   </p>
                   <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                     <li>
@@ -250,10 +250,10 @@ function App() {
                         href="https://links.tailgrids.com/play-download"
                         className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color"
                       >
-                        Download Now
+                        Join Now
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://github.com/tailgrids/play-tailwind"
                         target="_blank"
@@ -278,9 +278,9 @@ function App() {
                         </svg>
                         Star on Github
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
-                  <div>
+                  {/* <div>
                     <p className="mb-4 text-center text-base font-medium text-white">
                       Built with latest technology
                     </p>
@@ -412,7 +412,7 @@ function App() {
                         </svg>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="w-full px-4">
@@ -420,13 +420,29 @@ function App() {
                   className="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
                   data-wow-delay=".25s"
                 >
-                  <div className="mt-16">
-                    <img
-                      src="assets/images/hero/hero-image.jpg"
-                      alt="hero"
-                      className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                    />
+                  <div className="-mx-4 flex flex-wrap pb-24">
+                    <div className="w-full px-4 md:w-1/2">
+                      <h4 className="mb-6 text-center text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">World</h4>
+                      <div className="mt-16">
+                        <img
+                          src="https://internal.user.quantum2.io/assets/world1-al45pzw8.png"
+                          alt="hero"
+                          className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
+                        />
+                      </div>
+                    </div>
+                    <div className="w-full px-4 md:w-1/2">
+                      <h4 className="mb-6 text-center text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">World 2.0</h4>
+                      <div className="mt-16">
+                        <img
+                          src="https://internal.user.quantum2.io/assets/globe-CEsJkoPU.png"
+                          alt="hero"
+                          className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
+                        />
+                      </div>
+                    </div>
                   </div>
+
                   <div className="absolute -left-9 bottom-0 z-[-1]">
                     <svg
                       width={134}
@@ -1580,14 +1596,13 @@ function App() {
               <div className="w-full px-4">
                 <div className="mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]">
                   <span className="mb-2 block text-lg font-semibold text-primary">
-                    Features
+                    Quantum 2
                   </span>
                   <h2 className="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]">
-                    Main Features Of Play
+                    Quantum2 - Mandate
                   </h2>
                   <p className="text-base text-body-color dark:text-dark-6">
-                    There are many variations of passages of Lorem Ipsum available but
-                    the majority have suffered alteration in some form.
+                    Quantum2 challenges the conventional boundaries of society and economics, envisioning a future where individuals are empowered to shape their own reality and drive positive change through collaborative effort and innovative thinking.
                   </p>
                 </div>
               </div>
@@ -1611,10 +1626,10 @@ function App() {
                     </svg>
                   </div>
                   <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                    Free and Open-Source
+                    A New Economic Paradigm
                   </h4>
                   <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                    Lorem Ipsum is simply dummy text of the printing and industry.
+                    Quantum2 proposes a revolutionary economic model where individuals can pursue their true interests without being tied to traditional employment, emphasizing personal fulfillment and community development over material accumulation.
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -1642,10 +1657,10 @@ function App() {
                     </svg>
                   </div>
                   <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                    Multipurpose Template
+                    Land Units as Currency and Wealth Accumulation:
                   </h4>
                   <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                    Lorem Ipsum is simply dummy text of the printing and industry.
+                    By introducing Land Units as a form of currency pegged to the increasing value of land, Quantum2 enables individuals to accumulate wealth over time without the need for traditional labor, fostering a transition towards a self-sustaining ecosystem.
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -1705,10 +1720,10 @@ function App() {
                     </svg>
                   </div>
                   <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                    High-quality Design
+                    Self-Organizing Work and Peer-to-Peer Economy
                   </h4>
                   <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                    Lorem Ipsum is simply dummy text of the printing and industry.
+                    Quantum2 promotes a self-organizing work environment where individuals collaborate on projects based on personal interests and skills, incentivized by peer rewards, fostering a culture of innovation and personal growth.
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -1748,10 +1763,10 @@ function App() {
                     </svg>
                   </div>
                   <h4 className="mb-3 text-xl font-bold text-dark dark:text-white">
-                    All Essential Elements
+                    Hetocracy: A New Governance Model:
                   </h4>
                   <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                    Lorem Ipsum is simply dummy text of the printing and industry.
+                    Proposing Hetocracy as a human-centric, technology-based democracy, Quantum2 aims to eliminate traditional political structures and power dynamics, instead prioritizing practical development projects based on community input and equal participation.
                   </p>
                   <a
                     href="javascript:void(0)"
